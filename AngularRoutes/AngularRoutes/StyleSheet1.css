@@ -1,0 +1,26 @@
+﻿.header{
+    width:800px;
+    height:80px;
+    text-align:center;
+    background-color:#808080;
+}
+.footer {
+    background-color: #808080;
+    text-align:center;
+}
+
+.leftMenu{
+    height:500px;
+    background-color:#D8D8D8;
+    width:150px;
+}
+
+.mainContent{
+    height:500px;
+    background-color:#E6E6E6;
+}
+
+a{
+    display:block;
+    padding:5px;
+}

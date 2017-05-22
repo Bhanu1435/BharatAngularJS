@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="AngularRoutes">
+<head>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular.route.min.js"></script>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="Scripts/Script.js"></script>
+    <base href="/" />
+</head>
+<body>
+    <table style="font-family:Arial">
+        <tr>
+            <td colspan="2" class="header">
+                <h1>
+                    Website Header
+                </h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftMenu">
+                <a href="home">Home</a>
+                <a href="course">Courses</a>
+                <a href="student">Students</a>
+            </td>
+            <td class="mainContent">
+                <ng-view></ng-view>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                <b>Website</b>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
